@@ -25,13 +25,13 @@ cd php-silex-twig-skeleton/
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
 
-3 - Composer Install
+4 - Composer Install
 
 ```bash
 php composer.phar install
 ```
 
-4 - Start PHP Built-in web server:
+5 - Start PHP Built-in web server:
 
 ```bash
 php -S localhost:8000 -t public/
