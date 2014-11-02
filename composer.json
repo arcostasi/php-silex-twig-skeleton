@@ -1,0 +1,25 @@
+{
+    "name": "arcostasi/php-silex-twig-skeleton",
+    "description": "PHP Silex Twig Skeleton",
+    "authors": [
+        {
+            "name": "Anderson Costa",
+            "email": "arcostasi@gmail.com"
+        }
+    ],
+    "license": "BSD-3",
+    "autoload": {
+        "psr-4": {
+            "App\\Classes\\": "src/App/Classes",
+            "App\\Controllers\\": "src/App/Controllers",
+            "App\\Models\\": "src/App/Models",
+            "App\\Services\\": "src/App/Services"
+        }
+    },
+    "require": {
+        "silex/silex": "1.*",
+        "twig/twig": "1.*",
+        "twig/extensions": "*",
+        "symfony/twig-bridge": "2.*"
+    }
+}

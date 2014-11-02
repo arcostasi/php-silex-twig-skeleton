@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate-assets",
+  "version": "1.0.0",
+  "authors": [
+    "Anderson Costa <arcostasi@gmail.com>"
+  ],
+  "description": "Most popular HTML, CSS, and JS libraries and frameworks for frontend.",
+  "keywords": [
+    "jQuery",
+    "Bootstrap",
+    "AngularJS"
+  ],
+  "license": "BSD-3",
+  "homepage": "https://github.com/arcostasi/boilerplate-assets",
+  "ignore": [
+    "/.*",
+    "bower.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "dependencies": {
+    "assets": "https://github.com/arcostasi/boilerplate-assets.git"
+  }
+}
