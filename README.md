@@ -7,19 +7,31 @@ This skeleton use Composer, Bower, Silex, Twig, jQuery and Twitter Bootstrap
 
 ## Quick start
 
-1. Clone the repo:
+1 - Clone the repo:
 
 ```bash
 git clone https://github.com/arcostasi/php-silex-twig-skeleton.git
 ```
 
-2. Change to the directory created
+2 - Change to the directory created
 
 ```bash
 cd php-silex-twig-skeleton/
 ```
 
-3. Start PHP Built-in web server:
+3 - Download Composer
+
+```bash
+php -r "readfile('https://getcomposer.org/installer');" | php
+```
+
+3 - Composer Install
+
+```bash
+php composer.phar install
+```
+
+4 - Start PHP Built-in web server:
 
 ```bash
 php -S localhost:8000 -t public/
